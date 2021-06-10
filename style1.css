@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #60A5FA;
+    --off-white: #4B5563;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+    margin: 0px;
+}
+
+hr {
+    margin: 0rem 0rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+.container-center {
+    max-width:600px;
+    margin:auto;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+    display: block;
+    max-width: 140px;
+    margin:auto;
+    margin-top:2rem;
+}
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin:auto;
+    margin-top:2rem;
+}
+.list .non-bullet {
+    list-style: none;
+}
+.list .item-inline {
+    display: inline;
+    padding:0rem 1rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    text-decoration: none;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-pills {
+    text-align: right;
+    font-size: 1.5rem;
+}    
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:var(--dark-gray);
+}
+
+.navigation  .link {
+    color:white;
+    
+}
+.link-active {
+    font-weight: bold;
+}
+
+
+.hero {
+    padding: 2rem;
+}
+.hero .hero-img {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading {
+    text-align:center ;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color:var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+.section {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin:auto;
+}
+
+.section h1 {
+        text-align: center;
+}
+.technical{
+    text-align: center;
+}
+.techlist{
+    list-style: none;
+}    
+.techcont{
+    border: solid 1px;
+    border-color: darkgray;
+    border-radius: 5px;
+    width: 60%;
+    height: 50%;
+    padding: 4px;
+    size: fit-content;
+}
+.techdiv{
+   padding:2px;
+} 
+.techlist li{
+    display: inline-block;
+    text-align: center;
+    padding:2px;
+}
+.techlist img{
+    width: 100%;
+}
+.techname{
+    padding-right:5px;
+
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-decoration: none;
+}
+.footer .link{
+    color: white;
+}
+.footer ul {
+    padding-inline-start: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
